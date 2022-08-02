@@ -1,0 +1,13 @@
+{
+    "trailingComma": "none",
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": false,
+    "quoteProps": "as-needed",
+    "jsxSingleQuote": false,
+    "bracketSpacing": true,
+    "bracketSameLine": true,
+    "vueIndentScriptAndStyle": true,
+    "endOfLine": "lf",
+    "singleAttributePerLine": true
+}

@@ -1,0 +1,8 @@
+# Ignore production build directory
+/dist
+
+# Ignore node modules directory
+/node_modules
+
+# Ignore file because it doesn't support TypeScript 
+src/components/ImportType.vue

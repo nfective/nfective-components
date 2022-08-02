@@ -1,0 +1,14 @@
+# Ignore files
+vite.config.js
+package.json
+package-lock.json
+yarn.lock
+
+# Ignore production build directory
+/dist
+
+# Ignore node modules directory
+/node_modules
+
+# Ignore documentation directory
+/docs

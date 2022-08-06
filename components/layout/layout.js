@@ -1,19 +1,23 @@
-import App from './App.vue'
-import AppHeader from './AppHeader.vue'
-import AppSidebar from './AppSidebar.vue'
-import AppFooter from './AppFooter.vue'
-import Page from './Page.vue'
-import PageHeader from './PageHeader.vue'
-import PageSidebar from './PageSidebar.vue'
-import PageFooter from './PageFooter.vue'
+import NApp from './NApp.vue'
+import NAppHeader from './NAppHeader.vue'
+import NAppBody from './NAppBody.vue'
+import NAppSidebar from './NAppSidebar.vue'
+import NAppFooter from './NAppFooter.vue'
+import NPage from './NPage.vue'
+import NPageHeader from './NPageHeader.vue'
+import NPageBody from './NPageBody.vue'
+import NPageSidebar from './NPageSidebar.vue'
+import NPageFooter from './NPageFooter.vue'
 
 export {
-    App,
-    AppHeader,
-    AppSidebar,
-    AppFooter,
-    Page,
-    PageHeader,
-    PageSidebar,
-    PageFooter
+    NApp,
+    NAppHeader,
+    NAppBody,
+    NAppSidebar,
+    NAppFooter,
+    NPage,
+    NPageHeader,
+    NPageBody,
+    NPageSidebar,
+    NPageFooter
 }

@@ -1,0 +1,51 @@
+   1. Optional column to select all rows on page or entire table (Will only select rows from page) 
+   2. When a row is deleted from an action it should also be removed from table and recalculated
+   3. Filter ignores specified fields
+   4. Allows sorting with language by adding language comparer object
+   5. The table busy state can be triggered manually by isBusy attribute
+   6. Prop api uses the VueUse useAyncState internally to manage busy on table
+    * When using the api, the table expects the api to manage the following attributes: currentPage, resultsPerPage, filterOn, filterValue, sort: a-z, z-a, asc, desc
+   7. Allow users to add custom columns to perform actions such as modify, delete, details, or custom actions
+   8. Users can use showDetails with whenSelected to show a modal the full details of the row
+   9. Optional to highlight row when selected; overrides defaults, rows matching a specific key value 
+  10. Optional to highlight row when hovered; overrides default, selected, rows matching a specific key value
+  11. TrapContext
+  12. custom style rows
+  13. custom style columns
+  14. custom style headers
+  15. add and style footer
+  16. Allow rows to still be selected even when not on page
+  17. Automatically rehighlight rows when switching back to page 
+  18. Add previous and next button, should work even on filter. 
+  19. resultsPerPage as array of ints
+  20. Optional add styles where keys match a pattern
+  21.
+  22.
+  23.
+  24.
+  25.
+  26.
+  27.
+  28.
+  29.
+  30.
+  31.
+  32.
+  33.
+  34.
+  35.
+  36.
+  37.
+  38.
+  39.
+  40.
+  41.
+  42.
+  43.
+  44.
+  45.
+  46.
+  47.
+  48.
+  49.
+  50.

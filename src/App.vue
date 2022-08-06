@@ -1,10 +1,9 @@
 <script setup>
+import NApp from "@/layout/NApp.vue";
 </script>
 
 <template>
-  <App>
-    
-  </App>
+  <NApp></NApp>
 </template>
 
 <style scoped>

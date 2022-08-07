@@ -1,27 +1,27 @@
 <script setup>
-    import { useSlots } from 'vue';
+    import { ref } from 'vue';
     import useVirtualId from './../utils/virtual-id.js'
 
     const vid = useVirtualId()
-
-    const prop = defineProps(["items", 
+    const root = ref(null)
+    const prop = defineProps([
+        "rules",
+        "items", 
         "fields", 
         "ignore-fields", 
         "isBusy", 
-        "comparer", 
         "showSelectableRows", 
         "showFooter",
         "selectMode"])
 
     const slots = useSlots()
 
-    setTimeout(() => { console.log(slots) })
-
 </script>
 
 <template>
-    <div :v-id="vid">
+    <div ref="root" :v-id="vid">
         <table>
         </table>
     </div>
+    <NScopedStyle v-if="prop.rules" :v-id="vid" :rules="prop.rules" />
 </template>

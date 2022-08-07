@@ -18,8 +18,8 @@
 
     useResizeObserver(root, (entries) => {
         const entry = entries[0]
-        height = entry.contentRect.height
-        width = entry.contentRect.width
+        height.value = entry.contentRect.height
+        width.value = entry.contentRect.width
     })
 
     //const emit = defineExpose("register")

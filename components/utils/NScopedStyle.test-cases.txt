@@ -1,0 +1,63 @@
+`* { background-color: black }
+body { background-color: black }
+html { background-color: black }
+::root { background-color: black }
+[data-url="hype"] { background-color: black }
+a { background-color: black }
+A { background-color: black }
+br { background-color: black }
+p { background-color: black }
+quote { background-color: black }
+dd { background-color: black }
+dt { background-color: black }
+th { background-color: black }
+tr { background-color: black }
+tbody { background-color: black }
+caption { background-color: black }
+abbr { background-color: black }
+div { background-color: black }
+span { background-color: black }
+hr { background-color: black }
+em { background-color: black }
+small { background-color: black }
+keyboard { background-color: black }
+::before { background-color: black }
+::after { background-color: black }
+:active { background-color: black }
+:default { background-color: black }
+:enabled { background-color: black }
+:last-of-type { background-color: black }
+:nth-child() { background-color: black }
+:nth-child(4) { background-color: black }
+#css { background-color: black }
+.css { background-color: black }
+.css.hack { background-color: black }
+.css #hack { background-color: black }
+.hack#css { background-color: black }
+#hack.css { background-color: black }
+div div { background-color: black }
+div, span { background-color: black }
+div,  span { background-color: black }
+div [attr] { background-color: black }
+div [attr="Hi"] { background-color: black }
+div [attr$="d"] { background-color: black }
+div [attr*="d"] { background-color: black }
+div [attr^="d"] { background-color: black }
+div [attr|="d"] { background-color: black }
+div[attr|="d"] { background-color: black }
+div[attr|="d"][guess="d"] { background-color: black }
+div[attr|="d"][guess="d"] span { background-color: black }
+div[attr|="d"] span [guess="d"] { background-color: black }
+div.span { background-color: black }
+.div.span { background-color: black }
+#hero.span { background-color: black }
+.hero#span { background-color: black }
+div > span { background-color: black }
+div ~ span { background-color: black }
+div + span { background-color: black }
+#div > span { background-color: black }
+.div ~ span { background-color: black }
+div[] + span { background-color: black }
+div-me[] + span { background-color: black }
+#div-me > span { background-color: black }
+.div-me ~ span { background-color: black }`

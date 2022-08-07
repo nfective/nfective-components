@@ -4,14 +4,13 @@
     import NApp from "@/layout/NApp.vue";
     import NScopedStyle from '../components/utils/NScopedStyle.vue';
 
-    const vid = useVirtualId()
     const root = ref(null)
 
-    const rules = `div { background-color: black }` 
+    const rules = '' 
 </script>
 
 <template>
-  <NApp ref="root" :v-id="vid" :rules="rules">
+  <NApp ref="root" :rules="rules">
       <RouterView />
   </NApp>
 </template>
